@@ -30,21 +30,6 @@ void FillByUser(string[] array)
         index++;
     }
 }
-// Заполнение второго массива
-void FillSecondArray(string[] array, string[] array2)
-{
-    for (int index = 0, index2 = 0; index < array.Length && index2 < array2.Length; index++)
-    {
-        int stringSize = 3;
-        string item = array[index];
-        if (item.Length <= stringSize)
-        {
-            array2[index2] = array[index];
-            index2++;
-        }
-
-    }
-}
 // Определение размера второго массива
 int NewSize(string[] array)
 {
@@ -60,6 +45,20 @@ int NewSize(string[] array)
         }
     }
     return count;
+}// Заполнение второго массива
+void FillSecondArray(string[] array, string[] array2)
+{
+    for (int index = 0, index2 = 0; index < array.Length && index2 < array2.Length; index++)
+    {
+        int stringSize = 3;
+        string item = array[index];
+        if (item.Length <= stringSize)
+        {
+            array2[index2] = array[index];
+            index2++;
+        }
+
+    }
 }
 // Печать массива
 string Print(string[] array)
