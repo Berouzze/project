@@ -8,7 +8,7 @@
 * Находим размер будущего массива метдом: ***[NewSize](https://github.com/Berouzze/project/blob/master/flowchart/NewSize.JPG "NewSize")***;
 * Создаем второй массив методом: ***CreateaArray***;
 * Заполняем второй массив строками длинной меньше или равными 3:        ***[FillSecondArr](https://github.com/Berouzze/project/blob/master/flowchart/FillSecondArr.JPG "FillSecondArr")***;
-* Печатаем оба массива методом: ***[Print](https://github.com/Berouzze/project/blob/master/flowchart/FillSecondArr.JPG "Print")***;
+* Печатаем оба массива методом: ***[Print](https://github.com/Berouzze/project/blob/master/flowchart/PRINT.JPG "Print")***;
 
 ## Полезные ссылки
 
