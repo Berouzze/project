@@ -1,4 +1,4 @@
-﻿// Ввод размера перввого массива
+﻿// Ввод размера первого массива
 int GetNumber(string text)
 {
     System.Console.WriteLine(text);
